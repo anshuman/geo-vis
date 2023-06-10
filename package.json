@@ -1,0 +1,29 @@
+{
+  "name": "geo-vis",
+  "version": "1.0.0",
+  "description": "geo-vis",
+  "scripts": {
+    "start:local": "webpack serve --open --config webpack/webpack.dev.js",
+    "build:local": "webpack --config webpack/webpack.prod.js"
+  },
+  "keywords": [
+    "geo-vis"
+  ],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.3",
+    "@babel/preset-typescript": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.3",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
